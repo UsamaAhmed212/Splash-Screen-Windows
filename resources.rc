@@ -1,3 +1,5 @@
 #include "resource.h"
 
 IDI_MYICON ICON "bangla_keyboard.ico"
+
+IDB_SPLASH_SCREEN BITMAP "avro_keyboard_splash_screen.bmp"

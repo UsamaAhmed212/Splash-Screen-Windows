@@ -28,7 +28,7 @@ windres resources.rc -o resource.o
 
 ### 2. Generated Executable File (.exe)
 ```bash
-gcc splashScreen.c resource.o -o splashScreen.exe -mwindows
+gcc splashScreen.c resource.o -o splashScreen.exe  -lgdi32 -mwindows
 ```
 #### Behavior of Flags
 > **`-mwindows:`** Tells GCC to create a Windows GUI application. This means that the application will not have a console window attached to it when run.
